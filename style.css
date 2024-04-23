@@ -1,0 +1,74 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff7e6; /* Fondo beige claro */
+    background-image: url('imagenes/floresam1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    padding: 20px;
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+h1 {
+    color: #ff3366; /* Texto rosa */
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra de texto */
+    margin-bottom: 20px;
+}
+
+.images {
+    margin-top: 20px;
+}
+
+.images img {
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 50%; /* Bordes redondeados */
+    transition: transform 0.3s ease-in-out; /* Transición suave */
+}
+
+.images img:hover {
+    transform: scale(1.1); /* Escalar la imagen al hacer hover */
+}
+
+.message {
+    background-color: rgba(255, 255, 255, 0.95); /* Fondo blanco semi-transparente */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 20px;
+}
+
+.message p {
+    font-size: 18px;
+    color: #333333; /* Texto negro */
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.additional-content {
+    margin-top: 30px;
+}
+
+.additional-content section {
+    margin-bottom: 30px;
+}
+
+.additional-content h2 {
+    color: #ff3366; /* Texto rosa */
+}
+
+.additional-content p {
+    font-size: 16px;
+    color: #555; /* Texto gris */
+    line-height: 1.5;
+}
